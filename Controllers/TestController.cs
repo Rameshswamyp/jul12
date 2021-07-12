@@ -16,7 +16,7 @@ namespace app12.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "V1", "V2" };
         }
 
         // GET api/<TestController>/5
