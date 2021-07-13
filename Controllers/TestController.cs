@@ -23,7 +23,7 @@ namespace app12.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "Something";
         }
 
         // POST api/<TestController>
